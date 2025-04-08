@@ -1,0 +1,34 @@
+#alert-modal {
+    background-color: #e2dec7;
+    padding: 20px;
+    width: 80%;
+    width: 300px;
+    border: solid 2.5px #2a6049;
+    justify-items: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    gap: 10px;
+    font-weight: 600;
+}
+
+#alert-modal button {
+    background-color: #2a6049;
+    color: #e2dec7;
+    padding: 10px 25px;
+    border: solid 2px #2a6049;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+#alert-modal button:hover {
+    border: solid 2px #2a6049;
+    background-color: #3e8164;
+}
+
+#alert-modal i{
+    width: 600;
+    color: #2a6049;
+}

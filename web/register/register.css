@@ -1,0 +1,85 @@
+body {
+    background-color: #e2dec7;
+}
+
+.teapot {
+    width: 70px;
+    height: 70px;
+}
+  
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+  
+.name-logo {
+    font-family: "Dancing Script", cursive;
+    font-size: 22px;
+}
+
+.d-block {
+    margin-top: 5px;
+    color: #2a6049;
+}
+
+.button-register {
+    background-color: #2a6049;
+    color: #e2dec7;
+    padding: 10px 25px;
+    border: solid 2px #2a6049;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.button-register:hover{
+    border: solid 2px #2a6049;
+    background-color: #3e8164;
+}
+  
+.body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.form-control{
+    margin: 3px 0px;
+}
+  
+.form-group {
+    margin: 10px 0px;
+}
+  
+.main-container {
+    width: 30%;
+    flex: 1;
+}
+  
+.nav-container {
+    flex: 0;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: start;
+    text-decoration: none;
+    color: #2a6049;
+    font-weight: 600;
+    margin-top: 8px;
+}
+  
+.nav-container i {
+    margin-left: 8px;
+    margin-top: 5px;
+}
+  
+.nav-container p {
+    margin-left: 5px;
+}
+  
+.nav-container:hover {
+    color: black;
+}

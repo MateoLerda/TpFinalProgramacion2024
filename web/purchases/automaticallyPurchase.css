@@ -1,0 +1,246 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #e2dec7;
+}
+
+.page-container {
+    background-color: #e2dec7;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-decoration: none;
+}
+
+
+.nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.teapot {
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.title-icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.title-icon-container:hover {
+    color: #367b5d
+}
+
+a {
+    text-decoration: none;
+}
+
+.bold-words {
+    font-weight: 600;
+}
+
+.group-title {
+    font-weight: 700;
+    font-family: "Dancing Script", cursive;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+
+.nav-item a {
+    margin-right: 5px;
+    color: #2a6049;
+}
+
+.nav-item .nav-link:hover {
+    color: black;
+    font-weight: 600;
+}
+
+#btnAutomatically {
+    background-color: #e2dec7;
+    border: 2px solid #2a6049;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#btnAutomatically:hover {
+    background-color: #2a6049;
+    color: white;
+    transition: 0.5s;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+.food-item {
+    border: 2px solid #2a6049;
+    padding: 10px 50px;
+    /* Ajusta los valores para lograr el espaciado deseado */
+    text-align: center;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c4333;
+    width: 100%;
+    margin-top: auto;
+}
+
+.information {
+    padding: 30px;
+    color: #e2dec7;
+}
+
+.dynamic-table-class {
+    width: 100%;
+    border: 2px solid #1c4333;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+tbody td {
+    border: 1px solid #1c4333;
+    height: 50px;
+    text-align: center;
+}
+
+#quantityToBuy {
+    width: 40px;
+    text-align: center;
+    border: 2px solid #2a6049;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+.principal-purchase-title {
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+}
+
+body {
+    overflow-y: auto;
+}
+
+.page-container {
+    flex: 1;
+}
+
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    margin-top: 10px;
+    color: #2a6049;
+    cursor: pointer;
+}
+
+.user-mail {
+    font-size: 14px;
+    margin-left: 3px;
+    color: #2a6049;
+}
+
+.user-mail:hover {
+    color: #367b5d;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+
+}
+
+.search-bar button {
+    border: none;
+    background-color: #e2dec7;
+    color: #2a6049;
+}
+
+.search-bar input {
+    border: none;
+    background-color: #e2dec7;
+    color: #2a6049;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.search-bar input:hover {
+    border: solid 0.5px #2a6049;
+    background-color: #e2dec7;
+    color: #2a6049;
+}
+
+
+.search-bar button :hover {
+    border: none;
+    background-color: #e2dec7;
+    color: #1c4333;
+}
+
+.filter-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: auto;
+    margin-bottom: 20px;
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+.filterstype {
+    border-radius: 10px;
+    border: solid 0.5px #2a6049;
+    text-align: center;
+    color: #2a6049;
+    background-color: #e2dec7;
+}
+
+.return {
+    display: flex;
+    gap: 10px;
+    color: #2a6049;
+    margin-left: 20px;
+    text-decoration: none !important;
+}
+
+.return i {
+    margin-top: 4px;
+}

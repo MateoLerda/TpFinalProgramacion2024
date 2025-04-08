@@ -1,0 +1,253 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body-container {
+  background-color: #e2dec7;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav .nav-item .bold-words {
+  font-weight: 600;
+}
+
+.group-title {
+  font-weight: 700;
+  font-family: "Dancing Script", cursive;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+
+.title-icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.title-icon-container:hover {
+  color: #367b5d
+}
+
+.nav-item .nav-link {
+  color: #2a6049;
+}
+
+.nav-item .nav-link:hover {
+  color: black;
+  font-weight: 600;
+}
+
+.main-container {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  max-width: 90%;
+  gap: 15px;
+  margin: 0 auto;
+}
+
+.nav-container {
+  flex: 0;
+}
+
+.footer-container {
+  flex: 0;
+}
+
+.teapot {
+  margin-left: 10px;
+  width: 35px;
+  height: 35px;
+}
+
+.bold-words {
+  font-weight: 600;
+}
+
+.food-container {
+  border: 2px solid #2a6049;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 320px;
+}
+
+.food-container .food-moments {
+  font-size: 12px;
+}
+
+.food-text {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0;
+  margin-top: 15px;
+  background-color: #1c4333;
+}
+
+.information {
+  padding: 30px;
+  color: #e2dec7;
+}
+
+.delete-btn-food, .edit-btn-food {
+  background-color: #2a6049;
+  color: #e2dec7;
+  border: solid #e2dec7 1px;
+  border-radius: 5px;
+}
+
+.delete-btn-food:hover , .edit-btn-food:hover {
+  background-color: #3e8164;
+}
+
+.green-color {
+  color: #2a6049;
+}
+
+.big-font-size {
+  text-align: center;
+  font-size: 18px;
+}
+
+.dialog-create-form, .dialog-edit-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.dialog-create-container{
+  background-color: #e2dec7;
+  border-radius: 10px;
+  width: 350px;
+  height: 600px;
+}
+
+.dialog-edit-container {
+  background-color: #e2dec7;
+  border-radius: 10px;
+  width: 350px;
+  height: 520px;
+}
+
+.display-flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-food-submit, .edit-food-submit {
+  background-color: #2a6049;
+  color: #e2dec7;
+  padding: 10px 25px;
+  border: solid 2px #2a6049;
+  border-radius: 10px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.create-food-submit:hover, .edit-food-submit:hover {
+  border: solid 2px #2a6049;
+  background-color: #3e8164;
+}
+
+.form-food-label {
+  color: #2a6049;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.btn-close-modal {
+  background-color: #2a6049;
+  color: #e2dec7;
+  border: solid black 1px;
+  border-radius: 15px;
+}
+
+.btn-close-modal:hover {
+  background-color: #3e8164;
+}
+
+.btn-open-modal {
+  background-color: #2a6049;
+  color: #e2dec7;
+  border: solid #e2dec7 1px;
+  height: 320px;
+}
+
+.btn-open-modal:hover {
+  background-color: #3e8164;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  margin-top: 10px;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+.user-mail {
+  font-size: 14px;
+  margin-left: 3px;
+}
+
+.user-mail:hover {
+  color: #367b5d;
+}
+
+.orange-color {
+  color: rgb(216, 135, 36);
+}
+
+.red-color {
+  color: rgb(206, 2, 2);
+}
+
+.brown-color {
+  color: rgb(128, 88, 70);
+}
+
+.yellow-color {
+  color: #eabe45;
+}
+
+.black-color {
+  color: black;
+}
+
+.flex-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-input {
+  border-radius: 5px;
+  border: solid #1c4333 1px;
+}
+

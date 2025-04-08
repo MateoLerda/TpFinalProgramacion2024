@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Recipe</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="newRecipe.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../utils/alert.css">
+    <link rel="icon" type="image/x-icon" href="../assets/teapot.png">
+  </head>
+  <body>
+    <dialog id="alert-modal">
+    </dialog>
+    <div class="page-container">
+      <nav id="navbar" class="nav-container navbar navbar-expand-lg sticky-top">
+        <a class="title-icon-container" href="/pages/home/home.html">
+          <img class="teapot" src="../assets/teapot.png" alt="" />
+          <p class="group-title">Status418</p>
+        </a>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link green-color" href="../home/home.html">
+              <i class="fa-solid fa-house"></i>Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link green-color" href="../foods/foods.html">
+              <i class="fa-solid fa-drumstick-bite"></i> Foods</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link green-color bold-words" href="../recipes/AllRecipes.html">
+              <i class="fa-solid fa-utensils"></i> Recipes</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link green-color" href="../purchases/purchaseOptions.html">
+              <i class="fa-solid fa-cart-shopping"></i> Purchases</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link green-color" href="../reports/reports.html">
+              <i class="fa-solid fa-chart-column"></i> Graphs</a
+            >
+          </li>
+        </ul>
+        <div id ="login" class="login">
+          <a class="green-color bold-words" href="#"
+            ><i class="bi bi-person-circle green-color"></i>nom@usuario</a
+          >
+        </div>
+      </nav>
+      <a class="return" href="AllRecipes.html">
+            <i class="fa-solid fa-angles-left"></i> <p>Recipes</p>
+         </a>
+      <main class="main-container">
+         <h2> + New Recipe</h2>
+         <div class="general">
+            <div class="data">
+               <h3>Data</h3>
+               <div class="element">
+                  <label for="name">Name:</label>
+                  <input type="text"  id="recipeName" placeholder="Enter name">
+               </div>
+               <div class="element">
+                  <label for="moment">Momento:</label>
+                      <select id="recipeMoment" class="filters" aria-placeholder="Select moment">
+                          <option value="Breakfast">Breakfast</option>
+                          <option value="Lunch">Lunch</option>
+                          <option value="Snack">Snack</option>
+                          <option value="Dinner">Dinner</option>
+                      </select>
+               </div>
+               <div class="element">
+                  <label for="description">Description:</label>
+                  <textarea id="recipeDescription" placeholder="Enter description"></textarea>
+               </div>
+               <div class="brnFin">
+                <button class="createBtn" id="createBtn"> <i class="fa-solid fa-plus"></i>   Create</button>
+             </div>
+            </div>
+            <div class="foods">
+               <h3>Select Foods</h3>
+               <div class="list-food" id="list-food">
+                
+               </div>
+            </div>
+         </div>
+         <dialog id="modalSucces" class="modalSucces">
+          <i class="fa-solid fa-check"></i>
+          <p class="big-font-size">"Recipe created successfully. Do you want to continue creating?"</p>
+          <div>
+            <button class="btnsyn" id="btnyes">Yes</button>
+            <button class="btnsyn" id="btnno">No</button>
+          </div>
+         </dialog>
+      </main>
+      <footer class="footer-container fixed-bottom">
+        <i class="information">Telephone: +54 9 3492-654321</i>
+        <i class="information">Email: Status418@gmail.com</i>
+        <i class="information"
+          >Address: Main St 170, Rafaela, Santa Fe, Argentina</i
+        >
+        <i class="information">© 2024 Status 418 Official Shop</i>
+      </footer>
+    </div>
+  </body>
+  <script src="../utils/request.js" type="text/javascript"></script>
+  <script src="./newRecipes.js" type="text/javascript" ></script>
+  <script src="../utils/alert.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://kit.fontawesome.com/61c5807aca.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
